@@ -1,0 +1,71 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contenitore {
+    background-color: rgba(0,0,0,50%);
+    border-radius: 5px;
+    padding: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+img {
+    width: 30%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    bottom: px;
+}
+#bottoni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 251, 63);
+    padding: 10px; 
+    border-radius: 5px;
+
+}
+h2 {
+    text-align: center;
+    color: rgba(63, 251, 63, 0.914); 
+
+}
+ul {
+    list-style-type: square;
+    color: white;
+    font-size: 25px;
+}
+#Barra1 {
+    height: 10px;
+    width: 40%;
+    background: rgb(255, 179, 0);
+    padding: 10px; 
+    border-radius: 5px;
+}
+#Barra2 {
+    height: 10px;
+    width: 60%;
+    background: rgb(0, 172, 0);
+    padding: 10px; 
+    border-radius: 5px;
+}
+#Barra3 {
+    height: 10px;
+    width: 15%;
+    background: rgba(206, 0, 0, 0.764);
+    padding: 10px; 
+    border-radius: 5px;
+}
+p {
+    color: white;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
